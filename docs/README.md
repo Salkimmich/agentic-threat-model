@@ -1,0 +1,10 @@
+# Documentation Index
+
+- Guide: [`guides/agentic-threat-modeling-guide.md`](guides/agentic-threat-modeling-guide.md)
+- Templates:
+  - [`templates/system-context.md`](templates/system-context.md)
+  - [`templates/trust-boundaries.md`](templates/trust-boundaries.md)
+  - [`templates/threat-table.md`](templates/threat-table.md)
+  - [`templates/mitigations-and-residual-risk.md`](templates/mitigations-and-residual-risk.md)
+- Threat catalog:
+  - [`threat-catalog/llm-agent-threats.md`](threat-catalog/llm-agent-threats.md)
