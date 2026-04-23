@@ -1,0 +1,13 @@
+# Default ownership
+* @Salkimmich
+
+# Core governance and contribution policy files
+/README.md @Salkimmich
+/CONTRIBUTING.md @Salkimmich
+/SECURITY.md @Salkimmich
+/GOVERNANCE.md @Salkimmich
+/CODE_OF_CONDUCT.md @Salkimmich
+/CHANGELOG.md @Salkimmich
+
+# Threat-modeling content
+/docs/ @Salkimmich
