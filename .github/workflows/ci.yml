@@ -18,3 +18,10 @@ jobs:
         with:
           globs: |
             **/*.md
+
+      - name: Run markdown link check
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --verbose --accept 200,429 "./**/*.md"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

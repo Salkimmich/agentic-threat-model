@@ -4,14 +4,14 @@
 
 We are committed to a respectful, inclusive, and harassment-free community.
 
-Examples of expected behavior:
+Expected behavior:
 
 - Be constructive and kind
 - Assume good intent
 - Focus critiques on ideas, not people
 - Welcome differing viewpoints
 
-Examples of unacceptable behavior:
+Unacceptable behavior:
 
 - Harassment, discrimination, or personal attacks
 - Doxxing or publishing private information
@@ -19,8 +19,8 @@ Examples of unacceptable behavior:
 
 ## Enforcement
 
-Project maintainers may remove, edit, or reject contributions that violate this code of conduct.
+Maintainers may remove, edit, or reject contributions that violate this code of conduct.
 
 ## Reporting
 
-Report incidents privately to maintainers. Sensitive reports are handled with discretion.
+If something happens, report it privately to maintainers. Reports are handled as discreetly as possible.

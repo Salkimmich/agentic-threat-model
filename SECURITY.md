@@ -2,21 +2,21 @@
 
 ## Reporting a vulnerability
 
-If you discover a security issue in repository content or guidance:
+If you find a security issue in this repository or its guidance:
 
-1. Do not disclose details publicly in issues or pull requests.
-2. Report privately to the maintainers through your preferred private channel.
-3. Include reproduction details, impact, and suggested remediation if available.
+1. Please do not post details in a public issue or PR.
+2. Contact maintainers privately.
+3. Include context, potential impact, and any suggested fix.
 
 ## Response targets
 
 - Initial acknowledgement: within 5 business days
-- Triage decision: within 10 business days
+- Triage update: within 10 business days
 
 ## Scope
 
-This repository is documentation-first. Security reports should focus on:
+This is a documentation-first repository. Useful reports include:
 
-- Dangerous or incorrect security guidance
-- Disclosure of sensitive data in repository content
-- Supply-chain or workflow risks in repository automation
+- Incorrect or unsafe security recommendations
+- Sensitive information accidentally committed to the repo
+- Supply-chain or workflow risks in CI/repository automation

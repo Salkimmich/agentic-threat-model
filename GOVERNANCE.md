@@ -2,7 +2,7 @@
 
 ## Maintainer model
 
-This project starts with a small maintainer group responsible for:
+This project is currently maintained by a small group responsible for:
 
 - Reviewing and merging contributions
 - Curating threat-modeling guidance quality
@@ -10,9 +10,9 @@ This project starts with a small maintainer group responsible for:
 
 ## Decision process
 
-- Default approach: rough consensus in pull requests/issues
-- If consensus cannot be reached, maintainers decide and document rationale
+- Default approach: rough consensus in PRs/issues.
+- If consensus cannot be reached, maintainers make the call and record the reasoning.
 
 ## Changes to governance
 
-Proposals to update governance should be submitted as a pull request to this file.
+If you want to change governance, open a PR against this file with a short rationale.

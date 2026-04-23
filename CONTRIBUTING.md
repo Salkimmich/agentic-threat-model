@@ -1,30 +1,46 @@
 # Contributing
 
-Thanks for helping improve this project.
+Thanks for taking the time to contribute.
 
 ## Ways to contribute
 
-- Improve existing guidance and templates
-- Add examples from real-world agentic systems
-- Propose new threat patterns and mitigations
-- Fix typos, clarity, and structure
+- Tighten unclear guidance
+- Add threat examples from production experience
+- Improve templates so they are easier to use in real reviews
+- Fix wording, structure, and broken links
 
 ## Pull request process
 
-1. Open an issue for major changes before starting work.
-2. Keep pull requests focused and small.
-3. Explain the problem, proposed change, and trade-offs.
-4. Update related docs/templates when behavior or recommendations change.
+1. For larger changes, open an issue first so we can align on scope.
+2. Keep PRs focused. Smaller PRs are easier to review and merge.
+3. Explain what changed, why it changed, and what trade-offs you considered.
+4. If you change guidance in one file, update related templates/examples too.
 
 ## Content standards
 
-- Prefer concrete, actionable recommendations
-- Keep terminology consistent across docs
-- Avoid vendor-specific assumptions unless clearly marked
+- Prefer concrete advice over abstract principles.
+- Keep terms consistent across guides and templates.
+- Call out vendor-specific guidance explicitly.
+- Keep public documentation tool-neutral; do not include internal authoring tool references.
 
 ## Commit guidance
 
-Use clear commit messages that explain why the change is needed.
+Use commit messages that explain intent, not just file edits.
+
+## Local quality checks
+
+Run local checks before opening a pull request:
+
+1. Install pre-commit: `pip install pre-commit`
+2. Install hooks: `pre-commit install`
+3. Run all checks: `pre-commit run --all-files`
+
+This runs markdown linting, markdown link checks, and basic hygiene checks.
+
+## Issue triage labels
+
+Use the triage guide in [`docs/issue-triage.md`](docs/issue-triage.md) for
+priority, severity, and type label conventions.
 
 ## Security
 

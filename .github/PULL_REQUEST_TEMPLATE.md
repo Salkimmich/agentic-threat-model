@@ -1,6 +1,6 @@
 ## Summary
 
-- Describe the change and why it is needed.
+- What changed, and why?
 
 ## Checklist
 
@@ -11,4 +11,4 @@
 
 ## Testing/Validation
 
-- Explain how you validated the change.
+- How did you validate this change?
