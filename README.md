@@ -1,37 +1,49 @@
-# Agentic Threat Model
+# agentic-threat-model
 
-Open-source documentation and templates for modeling threats in AI/LLM agent systems.
+Practitioner-grade threat modeling resources for agentic AI systems.
+Built for security engineers, AI red teamers, and architects who need a structured
+starting point grounded in realistic attack behavior.
 
-## Why this repository exists
+## What this is
 
-Agentic systems introduce risks beyond traditional web/software threats, including prompt injection, tool misuse, data leakage, and unsafe autonomy. This repository provides a practical, repeatable way to model those risks and track mitigations.
+A docs-first threat modeling reference covering:
 
-## Scope
+- **Threat taxonomy**: 50 attack patterns across 10 categories
+- **Control mappings**: Prevent, detect, and respond controls with verification signals
+- **Framework crosswalks**: OWASP LLM Top 10, MITRE ATLAS, and NIST AI RMF
+- **Risk scoring**: Agentic Risk Score (ARS) rubric for triage and prioritization
+- **Templates**: Threat model worksheets and submission templates for repeatable reviews
 
-- Documentation-first project (no runtime code required)
-- Initial guide focused on agentic/LLM threats
-- Reusable templates for system context, trust boundaries, threats, and residual risk
+## Who this is for
+
+- Security architects designing or reviewing agentic AI deployments
+- Product security teams adding AI-specific threats to existing libraries
+- Red teams building test plans for tool-using and multi-agent systems
+- Compliance and GRC teams mapping AI threats to governance frameworks
 
 ## Quick start
 
-1. Read [`docs/guides/agentic-threat-modeling-guide.md`](docs/guides/agentic-threat-modeling-guide.md).
-2. Copy the files in [`docs/templates/`](docs/templates/) into your project workspace.
-3. Populate threats using [`docs/threat-catalog/llm-agent-threats.md`](docs/threat-catalog/llm-agent-threats.md).
-4. Open a pull request with improvements.
+1. Read the guide: [`docs/guides/agentic-threat-modeling-guide.md`](docs/guides/agentic-threat-modeling-guide.md)
+2. Review the catalog: [`docs/threat-catalog/llm-agent-threats.md`](docs/threat-catalog/llm-agent-threats.md)
+3. Score threats with ARS: [`docs/scoring/agentic-risk-score.md`](docs/scoring/agentic-risk-score.md)
+4. Record decisions using templates in [`docs/templates/`](docs/templates/)
 
-## Repository layout
+## Scope
 
-- [`docs/README.md`](docs/README.md) - documentation index
-- [`docs/guides/`](docs/guides/) - step-by-step methods
-- [`docs/templates/`](docs/templates/) - worksheet templates
-- [`docs/threat-catalog/`](docs/threat-catalog/) - starter threat lists
+This repository focuses on threats to **deployed agentic systems**:
+runtime attacks, orchestration weaknesses, tool abuse, data exfiltration,
+and supply chain compromise.
 
-## Contributing and security
+## Maintenance
 
-- Contribution guide: [`CONTRIBUTING.md`](CONTRIBUTING.md)
-- Security reporting: [`SECURITY.md`](SECURITY.md)
-- Code of conduct: [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)
+Taxonomy updates are tracked in [`CHANGELOG.md`](CHANGELOG.md).
+Contributions are reviewed through pull requests and threat submissions.
+
+## Contributing
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md). New catalog entries should use
+[`docs/templates/threat-submission.md`](docs/templates/threat-submission.md).
 
 ## License
 
-Licensed under Apache-2.0. See [`LICENSE`](LICENSE).
+Apache-2.0. See [`LICENSE`](LICENSE).

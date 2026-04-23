@@ -6,5 +6,8 @@
   - [`templates/trust-boundaries.md`](templates/trust-boundaries.md)
   - [`templates/threat-table.md`](templates/threat-table.md)
   - [`templates/mitigations-and-residual-risk.md`](templates/mitigations-and-residual-risk.md)
+  - [`templates/threat-submission.md`](templates/threat-submission.md)
 - Threat catalog:
   - [`threat-catalog/llm-agent-threats.md`](threat-catalog/llm-agent-threats.md)
+- Scoring:
+  - [`scoring/agentic-risk-score.md`](scoring/agentic-risk-score.md)
